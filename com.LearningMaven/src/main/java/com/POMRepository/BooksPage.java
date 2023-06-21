@@ -18,7 +18,7 @@ public class BooksPage
 	}
 	
 	@FindBy(id ="products-orderby")
-	private WebElement sortbydropdown;
+	 private WebElement sortbydropdown;
 	
 	@FindBy(id ="products-pagesize")
 	private WebElement displaydropdown;
@@ -26,11 +26,11 @@ public class BooksPage
 	@FindBy(id ="products-viewmode")
 	private WebElement viewdropdown;
 	
-	public void clickSortbydropdown(String option) 
+	public void clickSortbydropdown(int option) 
 	{
 		Select st=new Select(sortbydropdown);
 		
-		st.selectByVisibleText(option);
+		st.selectByIndex(option);
 	}
 	public void clickDisplaydropdown(String option) 
 	{
