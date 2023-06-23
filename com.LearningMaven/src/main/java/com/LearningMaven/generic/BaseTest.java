@@ -19,25 +19,25 @@ public class BaseTest
 	public WebDriver driver;
 	
 	
-	@DataProvider(name="rgstrdata")
+	@DataProvider(name="rgstrdata",parallel = true)
 	public Object[][] Rgstrdata() 
 	{
 		Object[][] data=new Object[3][5];
 		data[0][0]="1spiders";
 		data[0][1]="Q";
-		data[0][2]="qspiders8@gmail.com";
+		data[0][2]="qspiders888@gmail.com";
 		data[0][3]="qsp123";
 		data[0][4]="qsp123";
 		
 		data[1][0]="2spiders";
 		data[1][1]="j";
-		data[1][2]="jspiders8@gmail.com";
+		data[1][2]="jspiders888@gmail.com";
 		data[1][3]="jsp123";
 		data[1][4]="jsp123";
 		
 		data[2][0]="3spiders";
 		data[2][1]="Py";
-		data[2][2]="pyspiders8@gmail.com";
+		data[2][2]="pyspiders888@gmail.com";
 		data[2][3]="pysp123";
 		data[2][4]="pysp123";
 		return data;
@@ -67,11 +67,11 @@ public class BaseTest
 		return data;
 	}
 	
-	@DataProvider(name="lgnData")
+	@DataProvider(name="lgnData",parallel = true)
 	public Object[][] lgndata() 
 	{
 		Object[][] data=new Object[1][2];
-		data[0][0]="qspiders8@gmail.com";
+		data[0][0]="qspiders88@gmail.com";
 		data[0][1]="qsp123";
 		return data;
 	}

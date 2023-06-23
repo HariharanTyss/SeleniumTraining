@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.POMTestScripts.ValidloginTest">
+      <class name="com.POMTestScripts.ValidateProductJewelryTest">
         <methods>
-          <include name="validatelogin" invocation-numbers="0"/>
           <include name="Browser_setup"/>
           <include name="Browser_terminate"/>
+          <include name="validatejwelprd"/>
         </methods>
-      </class> <!-- com.POMTestScripts.ValidloginTest -->
+      </class> <!-- com.POMTestScripts.ValidateProductJewelryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
