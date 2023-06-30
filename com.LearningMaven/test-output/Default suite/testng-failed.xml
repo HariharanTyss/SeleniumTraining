@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.POMTestScripts.ValidateProductJewelryTest">
+      <class name="com.TestCases.Crossbrowser">
         <methods>
           <include name="Browser_setup"/>
           <include name="Browser_terminate"/>
-          <include name="validatejwelprd"/>
+          <include name="crossbrowser"/>
         </methods>
-      </class> <!-- com.POMTestScripts.ValidateProductJewelryTest -->
+      </class> <!-- com.TestCases.Crossbrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

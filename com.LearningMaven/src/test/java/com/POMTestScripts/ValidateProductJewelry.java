@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.LearningMaven.generic.BaseTest;
 import com.POMRepository.WelcomePage;
 
-public class ValidateProductJewelryTest extends BaseTest
+public class ValidateProductJewelry extends BaseTest
 
 {
 	@Test

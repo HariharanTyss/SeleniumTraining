@@ -1,5 +1,12 @@
 package com.TestCases;
 
-public class validatebooks {
+import org.testng.annotations.Test;
+
+public class validatebooks 
+{
+	@Test
+	public void validatebook() {
+		
+	}
 
 }
