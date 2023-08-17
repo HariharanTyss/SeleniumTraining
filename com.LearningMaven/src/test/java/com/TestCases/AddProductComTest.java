@@ -1,6 +1,8 @@
 package com.TestCases;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
@@ -30,6 +32,9 @@ public class AddProductComTest extends BaseTest
 
 		WebElement res_text = driver.findElement(By.xpath("//p[@class='content']"));
 		System.out.println(res_text.getText());
+		
+//		TakesScreenshot ts=(TakesScreenshot) driver;
+//		ts.getScreenshotAs(OutputType.FILE );
 
 
 	}

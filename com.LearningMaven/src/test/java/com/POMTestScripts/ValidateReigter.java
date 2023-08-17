@@ -13,7 +13,7 @@ import com.POMRepository.LoginPage;
 import com.POMRepository.RegisterPage;
 import com.POMRepository.WelcomePage;
 
-public class ValidateReigterTest extends BaseTest
+public class ValidateReigter extends BaseTest
 {
 	@Test(dataProvider = "rgstrdata",priority = 1)
 	public void validateregister(String fnm, String lnm,String email,String pwd,String cpwd) 

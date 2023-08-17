@@ -57,5 +57,7 @@ public class UtilityMethod
 		return  "."+spath;
 	}
 	
-	
+	public void clicking() {
+		System.out.println("Clicking from utility Method");
+	}
 }

@@ -1,74 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-29T14:58:46 IST" name="Suite" finished-at="2023-06-29T14:59:30 IST" duration-ms="44449">
+  <suite started-at="2023-08-01T14:58:34 IST" name="Default suite" finished-at="2023-08-01T14:58:45 IST" duration-ms="10446">
     <groups>
     </groups>
-    <test started-at="2023-06-29T14:58:46 IST" name="Test" finished-at="2023-06-29T14:59:30 IST" duration-ms="44449">
-      <class name="com.POMTestScripts.DeleteProductTest">
-        <test-method is-config="true" signature="Browser_setup(java.lang.String)[pri:0, instance:com.POMTestScripts.DeleteProductTest@28eaa59a]" started-at="2023-06-29T14:59:15 IST" name="Browser_setup" finished-at="2023-06-29T14:59:27 IST" duration-ms="12201" status="PASS">
+    <test started-at="2023-08-01T14:58:34 IST" name="Default test" finished-at="2023-08-01T14:58:45 IST" duration-ms="10446">
+      <class name="com.OFOS_script.TC002_verifylogin">
+        <test-method is-config="true" signature="Browser_setup(java.lang.String)[pri:0, instance:com.OFOS_script.TC002_verifylogin@76508ed1]" started-at="2023-08-01T14:58:34 IST" name="Browser_setup" finished-at="2023-08-01T14:58:44 IST" duration-ms="10057" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_setup -->
-        <test-method signature="regprd()[pri:1, instance:com.POMTestScripts.DeleteProductTest@28eaa59a]" started-at="2023-06-29T14:59:27 IST" name="regprd" finished-at="2023-06-29T14:59:27 IST" duration-ms="5" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.OFOS_script.TC002_verifylogin@76508ed1]" started-at="2023-08-01T14:58:44 IST" name="verifyLogin" finished-at="2023-08-01T14:58:44 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regprd -->
-        <test-method is-config="true" signature="Browser_terminate()[pri:0, instance:com.POMTestScripts.DeleteProductTest@28eaa59a]" started-at="2023-06-29T14:59:27 IST" name="Browser_terminate" finished-at="2023-06-29T14:59:30 IST" duration-ms="2802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser_terminate -->
-      </class> <!-- com.POMTestScripts.DeleteProductTest -->
-      <class name="com.POMTestScripts.ModifyProductTest">
-        <test-method is-config="true" signature="Browser_setup(java.lang.String)[pri:0, instance:com.POMTestScripts.ModifyProductTest@7ed7259e]" started-at="2023-06-29T14:59:02 IST" name="Browser_setup" finished-at="2023-06-29T14:59:12 IST" duration-ms="10335" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser_setup -->
-        <test-method signature="modifyprd()[pri:1, instance:com.POMTestScripts.ModifyProductTest@7ed7259e]" started-at="2023-06-29T14:59:12 IST" name="modifyprd" finished-at="2023-06-29T14:59:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyprd -->
-        <test-method is-config="true" signature="Browser_terminate()[pri:0, instance:com.POMTestScripts.ModifyProductTest@7ed7259e]" started-at="2023-06-29T14:59:12 IST" name="Browser_terminate" finished-at="2023-06-29T14:59:15 IST" duration-ms="2968" status="PASS">
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="Browser_terminate()[pri:0, instance:com.OFOS_script.TC002_verifylogin@76508ed1]" started-at="2023-08-01T14:58:45 IST" name="Browser_terminate" finished-at="2023-08-01T14:58:45 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_terminate -->
-      </class> <!-- com.POMTestScripts.ModifyProductTest -->
-      <class name="com.POMTestScripts.CreateProductTest">
-        <test-method is-config="true" signature="Browser_setup(java.lang.String)[pri:0, instance:com.POMTestScripts.CreateProductTest@2145b572]" started-at="2023-06-29T14:58:46 IST" name="Browser_setup" finished-at="2023-06-29T14:58:59 IST" duration-ms="13267" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser_setup -->
-        <test-method signature="createprd()[pri:1, instance:com.POMTestScripts.CreateProductTest@2145b572]" started-at="2023-06-29T14:58:59 IST" name="createprd" finished-at="2023-06-29T14:58:59 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createprd -->
-        <test-method is-config="true" signature="Browser_terminate()[pri:0, instance:com.POMTestScripts.CreateProductTest@2145b572]" started-at="2023-06-29T14:58:59 IST" name="Browser_terminate" finished-at="2023-06-29T14:59:02 IST" duration-ms="2744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Browser_terminate -->
-      </class> <!-- com.POMTestScripts.CreateProductTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.OFOS_script.TC002_verifylogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

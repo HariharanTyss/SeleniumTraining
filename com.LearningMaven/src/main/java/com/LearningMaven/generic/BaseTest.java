@@ -26,19 +26,19 @@ public class BaseTest extends UtilityMethod
 		Object[][] data=new Object[3][5];
 		data[0][0]="1spiders";
 		data[0][1]="Q";
-		data[0][2]="qsp@gmail.com";
+		data[0][2]="qsp111@gmail.com";
 		data[0][3]="qsp123";
 		data[0][4]="qsp123";
 		
 		data[1][0]="2spiders";
 		data[1][1]="j";
-		data[1][2]="jsp@gmail.com";
+		data[1][2]="jsp111@gmail.com";
 		data[1][3]="jsp123";
 		data[1][4]="jsp123";
 		
 		data[2][0]="3spiders";
 		data[2][1]="Py";
-		data[2][2]="pysp@gmail.com";
+		data[2][2]="pys111@gmail.com";
 		data[2][3]="pysp123";
 		data[2][4]="pysp123";
 		return data;
@@ -72,8 +72,8 @@ public class BaseTest extends UtilityMethod
 	public Object[][] lgndata() 
 	{
 		Object[][] data=new Object[1][2];
-		data[0][0]="qspiders@gmail.com";
-		data[0][1]="qsp123";
+		data[0][0]="hariharanrathna@gmail.com";
+		data[0][1]="Hari2617@";
 		return data;
 	}
  
@@ -94,7 +94,7 @@ public class BaseTest extends UtilityMethod
 		}
 		
 		driver.manage().window().maximize();
-		driver.get("https://demowebshop.tricentis.com/");
+		driver.get("http://elftestingserver/domain/Online_Food_Ordering_System");
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		initobjects();
 	}
